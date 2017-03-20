@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "func.h"
+#include "../include/func.h"
 
 void printHelloWorld(void){
     printf("Hello World in func.c\n");

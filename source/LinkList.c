@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "LinkList.h"
+#include "../include/LinkList.h"
 
 
 //typedef struct LNode {
