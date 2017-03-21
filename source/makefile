@@ -7,10 +7,10 @@ LDIR=../lib
 
 LIBS=-lm
 
-_DEPS = func.h
+_DEPS = func.h LinkList.h AdvancedLinkList.h
 DEPS = $(patsubst %, $(IDIR)/%, $(_DEPS))
 
-_OBJ = main.o func.o
+_OBJ = main.o func.o LinkList.o AdvancedLinkList.o
 OBJ = $(patsubst %, $(ODIR)/%, $(_OBJ))
 
 $(ODIR)/%.o : %.c $(DEPS)

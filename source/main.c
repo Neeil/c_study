@@ -37,7 +37,7 @@ int main(void){
 	PushAdvancedLinkList(&l, &ages[3], sizeof(int));
 	PrintAdvancedLinkList(l, PrintInt);
 
-	scanf_s("Press Any Key To Continue...");
+	scanf("Press Any Key To Continue...");
 
     return 0;
 }

@@ -52,10 +52,10 @@ void PrintAdvancedLinkList(AdvancedLinkList l, void (*f)(void *)) {
 }
 
 void PrintInt(void *n) {
-	printf("%d", *(int *)n);
+	printf("%d\n", *(int *)n);
 }
 
 void PrintFloat(void *n) {
 
-	printf("%f", *(float *)n);
+	printf("%f\n", *(float *)n);
 }
